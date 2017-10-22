@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyGitHubAsynckTask</string>
+    <string name="title_activity_detalhes">Detalhes Repositorio</string>
+</resources>
