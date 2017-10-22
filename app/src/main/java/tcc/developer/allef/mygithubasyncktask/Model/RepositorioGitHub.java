@@ -16,9 +16,9 @@ public class RepositorioGitHub implements Serializable {
     @SerializedName("full_name")
     private String full_name;
     @SerializedName("language")
-    private String linguagem;
+    private String language;
     @SerializedName("html_url")
-    private String urlRepo;
+    private String html_url;
 
 
 
@@ -49,19 +49,19 @@ public class RepositorioGitHub implements Serializable {
         this.full_name = full_name;
     }
 
-    public String getLinguagem() {
-        return linguagem;
+    public String getLanguage() {
+        return language;
     }
 
-    public void setLinguagem(String linguagem) {
-        this.linguagem = linguagem;
+    public void setLanguage(String language) {
+        this.language = language;
     }
 
-    public String getUrlRepo() {
-        return urlRepo;
+    public String getHtml_url() {
+        return html_url;
     }
 
-    public void setUrlRepo(String urlRepo) {
-        this.urlRepo = urlRepo;
+    public void setHtml_url(String html_url) {
+        this.html_url = html_url;
     }
 }
